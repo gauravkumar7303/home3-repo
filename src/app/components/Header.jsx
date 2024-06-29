@@ -43,54 +43,250 @@ const Header = () => {
 
     return (
         <header className='header'>
-            <div className="carousel overflow-hidden relative w-full max-w-lg" style={{ maxWidth: `100%`, height: `600px` }}>
+            <div className="carousel overflow-hidden relative w-full max-w-lg" style={{ maxWidth: `100%`, height: `800px` }}>
                 <div ref={carouselInnerRef} className="carousel-inner flex">
-                    <div className="carousel-item relative min-w-full transition-transform duration-500" style={{ maxWidth: `100%`, height: `600px` }}>
+                    <div className="carousel-item relative min-w-full transition-transform duration-500" style={{ maxWidth: `100%`, height: `800px` }}>
                         <img
                             src="images/slider/pexels-life-of-pix-2489.jpg"
                             alt="Slide 1"
                             className="w-full h-full object-cover"
                         />
-                        <div className="carousel-content absolute top-0 left-0 w-full h-full flex flex-col justify-center items-center bg-black bg-opacity-50 text-white p-20 text-center">
-                            <h2 className="text-2xl font-bold">Slide 1 Title</h2>
-                            <p className="mt-2">This is a description for Slide 1.</p>
+                        <div className="carousel-content absolute top-0 left-0 w-full h-full flex  bg-black bg-opacity-50 text-white">
+                            <div className="header-info px-16" style={{ paddingTop: "10rem" }}>
+                                <div className="row flex flex-wrap">
+                                    <div className="columns text-center" style={{ width: "400px" }}>
+                                        <h1 className="text-4xl pt-10 pb-4">Project</h1>
+                                    </div>
+                                    <div className="columns" style={{ width: "700px" }}>
+                                        <div className="header-top mb-6">
+                                            <div className="row flex flex-wrap justify-between">
+                                                <h1>FEATURES</h1>
+                                                <h1>GOURAV DESIGN & COO.</h1>
+                                            </div>
+                                            <hr />
+                                            <div className="heading pt-8 pb-8">
+                                                <h1 className="text-5xl">
+                                                    AMBER   <br />PROJECT <br />
+                                                    PROGRESS    <br />8/2023
+                                                </h1>
+                                            </div>
+                                            <div className="par pb-10">
+                                                <p>
+                                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. <br />
+                                                    Iusto dolorem saepe eum deleniti.
+                                                </p>
+                                            </div>
+                                            <div className="header-last flex flex-wrap justify-between">
+                                                <div
+                                                    className="box w-20 h-20 text-center p-4"
+                                                    style={{ backgroundColor: "orange" }}
+                                                >
+                                                    <span style={{ fontSize: "50px" }}>&#8599;</span>
+                                                </div>
+                                                <div className="buttons mt-16">
+                                                    <button
+                                                        id="prev"
+                                                        onClick={prevSlide}
+                                                        className="top-1/2 transform -translate-y-1/2 text-white"
+                                                    >
+                                                        <svg
+                                                            xmlns="http://www.w3.org/2000/svg"
+                                                            viewBox="0 0 320 512"
+                                                            className="h-9 w-9"
+                                                        >
+                                                            <path
+                                                                fill="#f7f9fc"
+                                                                d="M9.4 233.4c-12.5 12.5-12.5 32.8 0 45.3l192 192c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L77.3 256 246.6 86.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0l-192 192z"
+                                                            />
+                                                        </svg>
+                                                    </button>
+                                                    <button
+                                                        id="next"
+                                                        onClick={nextSlide}
+                                                        className="top-1/2 transform -translate-y-1/2 text-white"
+                                                    >
+                                                        <svg
+                                                            xmlns="http://www.w3.org/2000/svg"
+                                                            viewBox="0 0 320 512"
+                                                            className="h-9 w-9"
+                                                        >
+                                                            <path
+                                                                fill="#f4f5f6"
+                                                                d="M310.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-192 192c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L242.7 256 73.4 86.6c-12.5-12.5 12.5-32.8 0-45.3s32.8-12.5 45.3 0l192 192z"
+                                                            />
+                                                        </svg>
+                                                    </button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+
                         </div>
                     </div>
-                    <div className="carousel-item relative min-w-full transition-transform duration-500" style={{ maxWidth: `100%`, height: `600px` }}>
+                    <div className="carousel-item relative min-w-full transition-transform duration-500" style={{ maxWidth: `100%`, height: `800px` }}>
                         <img
                             src="images/slider/pexels-quang-nguyen-vinh-222549-2138126.jpg"
                             alt="Slide 2"
                             className="w-full h-full object-cover"
                         />
-                        <div className="carousel-content absolute top-0 left-0 w-full h-full flex flex-col justify-center items-center bg-black bg-opacity-50 text-white p-20 text-center">
-                            <h2 className="text-2xl font-bold">Slide 2 Title</h2>
-                            <p className="mt-2">This is a description for Slide 2.</p>
+                        <div className="carousel-content absolute top-0 left-0 w-full h-full  bg-black bg-opacity-50 text-white">
+                        <div className="header-info px-16" style={{ paddingTop: "10rem" }}>
+                                <div className="row flex flex-wrap">
+                                    <div className="columns text-center" style={{ width: "400px" }}>
+                                        <h1 className="text-4xl pt-10 pb-4">News</h1>
+                                    </div>
+                                    <div className="columns" style={{ width: "700px" }}>
+                                        <div className="header-top mb-6">
+                                            <div className="row flex flex-wrap justify-between">
+                                                <h1>FEATURES</h1>
+                                                <h1>GOURAV DESIGN & COO.</h1>
+                                            </div>
+                                            <hr />
+                                            <div className="heading pt-8 pb-8">
+                                                <h1 className="text-5xl">
+                                                    OHIO <br />
+                                                    FINACE OFFICE <br />
+                                                    BULIDING
+                                                </h1>
+                                            </div>
+                                            <div className="par pb-10">
+                                                <p>
+                                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. <br />
+                                                    Iusto dolorem saepe eum deleniti.
+                                                </p>
+                                            </div>
+                                            <div className="header-last flex flex-wrap justify-between">
+                                                <div
+                                                    className="box w-20 h-20 text-center p-4"
+                                                    style={{ backgroundColor: "orange" }}
+                                                >
+                                                    <span style={{ fontSize: "50px" }}>&#8599;</span>
+                                                </div>
+                                                <div className="buttons mt-16">
+                                                    <button
+                                                        id="prev"
+                                                        onClick={prevSlide}
+                                                        className="top-1/2 transform -translate-y-1/2 text-white"
+                                                    >
+                                                        <svg
+                                                            xmlns="http://www.w3.org/2000/svg"
+                                                            viewBox="0 0 320 512"
+                                                            className="h-9 w-9"
+                                                        >
+                                                            <path
+                                                                fill="#f7f9fc"
+                                                                d="M9.4 233.4c-12.5 12.5-12.5 32.8 0 45.3l192 192c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L77.3 256 246.6 86.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0l-192 192z"
+                                                            />
+                                                        </svg>
+                                                    </button>
+                                                    <button
+                                                        id="next"
+                                                        onClick={nextSlide}
+                                                        className="top-1/2 transform -translate-y-1/2 text-white"
+                                                    >
+                                                        <svg
+                                                            xmlns="http://www.w3.org/2000/svg"
+                                                            viewBox="0 0 320 512"
+                                                            className="h-9 w-9"
+                                                        >
+                                                            <path
+                                                                fill="#f4f5f6"
+                                                                d="M310.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-192 192c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L242.7 256 73.4 86.6c-12.5-12.5 12.5-32.8 0-45.3s32.8-12.5 45.3 0l192 192z"
+                                                            />
+                                                        </svg>
+                                                    </button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
-                    <div className="carousel-item relative min-w-full transition-transform duration-500" style={{ maxWidth: `100%`, height: `600px` }}>
+                    <div className="carousel-item relative min-w-full transition-transform duration-500" style={{ maxWidth: `100%`, height: `800px` }}>
                         <img
                             src="images/slider/pexels-rezwan-1078884.jpg"
                             alt="Slide 3"
                             className="w-full h-full object-cover"
                         />
-                        <div className="carousel-content absolute top-0 left-0 w-full h-full flex flex-col justify-center items-center bg-black bg-opacity-50 text-white p-20 text-center">
-                            <h2 className="text-2xl font-bold">Slide 3 Title</h2>
-                            <p className="mt-2">This is a description for Slide 3.</p>
+                        <div className="carousel-content absolute top-0 left-0 w-full h-full  bg-black bg-opacity-50 text-white">
+                        <div className="header-info px-16" style={{ paddingTop: "10rem" }}>
+                                <div className="row flex flex-wrap">
+                                    <div className="columns text-center" style={{ width: "400px" }}>
+                                        <h1 className="text-4xl pt-10 pb-4">BUILD</h1>
+                                    </div>
+                                    <div className="columns" style={{ width: "700px" }}>
+                                        <div className="header-top mb-6">
+                                            <div className="row flex flex-wrap justify-between">
+                                                <h1>PHILOSOPHY</h1>
+                                                <h1>GOURAV DESIGN & COO.</h1>
+                                            </div>
+                                            <hr />
+                                            <div className="heading pt-8 pb-8">
+                                                <h1 className="text-5xl">
+                                                    TIMELESS <br />
+                                                    SUSTANABLE & <br />
+                                                    STABLE
+                                                </h1>
+                                            </div>
+                                            <div className="par pb-10">
+                                                <p>
+                                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. <br />
+                                                    Iusto dolorem saepe eum deleniti.
+                                                </p>
+                                            </div>
+                                            <div className="header-last flex flex-wrap justify-between">
+                                                <div
+                                                    className="box w-20 h-20 text-center p-4"
+                                                    style={{ backgroundColor: "orange" }}
+                                                >
+                                                    <span style={{ fontSize: "50px" }}>&#8599;</span>
+                                                </div>
+                                                <div className="buttons mt-16">
+                                                    <button
+                                                        id="prev"
+                                                        onClick={prevSlide}
+                                                        className="top-1/2 transform -translate-y-1/2 text-white"
+                                                    >
+                                                        <svg
+                                                            xmlns="http://www.w3.org/2000/svg"
+                                                            viewBox="0 0 320 512"
+                                                            className="h-9 w-9"
+                                                        >
+                                                            <path
+                                                                fill="#f7f9fc"
+                                                                d="M9.4 233.4c-12.5 12.5-12.5 32.8 0 45.3l192 192c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L77.3 256 246.6 86.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0l-192 192z"
+                                                            />
+                                                        </svg>
+                                                    </button>
+                                                    <button
+                                                        id="next"
+                                                        onClick={nextSlide}
+                                                        className="top-1/2 transform -translate-y-1/2 text-white"
+                                                    >
+                                                        <svg
+                                                            xmlns="http://www.w3.org/2000/svg"
+                                                            viewBox="0 0 320 512"
+                                                            className="h-9 w-9"
+                                                        >
+                                                            <path
+                                                                fill="#f4f5f6"
+                                                                d="M310.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-192 192c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L242.7 256 73.4 86.6c-12.5-12.5 12.5-32.8 0-45.3s32.8-12.5 45.3 0l192 192z"
+                                                            />
+                                                        </svg>
+                                                    </button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
-                <button
-                    onClick={prevSlide}
-                    className="absolute left-0 top-1/2 transform -translate-y-1/2 bg-gray-800 text-white px-4 py-2"
-                >
-                    Prev
-                </button>
-                <button
-                    onClick={nextSlide}
-                    className="absolute right-0 top-1/2 transform -translate-y-1/2 bg-gray-800 text-white px-4 py-2"
-                >
-                    Next
-                </button>
                 <div className="nav p-6 absolute top-0 left-0" style={{ width: `100%` }}>
                     <div className="row flex flex-wrap justify-between">
                         <div className="columns inline-block w-96 mb-4">

@@ -25,11 +25,11 @@ const Services = () => {
                 </div>
                 <div className="service-card pt-10 px-1">
                     <div className="row flex w-full" style={{ flexWrap: 'wrap' }}>
-                        <div className="columns p-6 bg-white" style={{ width: `455px`, border: `1px solid gray` }}>
+                        <div className="columns p-6 bg-white left" style={{ width: `455px`, border: `1px solid gray` }}>
                             <a href="#" className="hover:text-orange-500">
                                 <p className="text-right">1</p>
                                 <div className="img m-20">
-                                    <img src="ser1.jpg" alt="" srcset="" className="rounded-full" style={{ width: `240px`, height: `240px` }} />
+                                    <img src="images/service-card/ser1.jpg" alt="" srcset="" className="rounded-full" style={{ width: `240px`, height: `240px` }} />
                                 </div>
                                 <div className="info">
                                     <p>24 cases</p>
@@ -37,11 +37,11 @@ const Services = () => {
                                 </div>
                             </a>
                         </div>
-                        <div className="columns p-6 bg-white" style={{ width: `550px`, border: `1px solid gray` }}>
+                        <div className="columns p-6 bg-white top" style={{ width: `550px`, border: `1px solid gray` }}>
                             <a href="#" className="hover:text-orange-500">
                                 <p className="text-right">2</p>
                                 <div className="img m-20">
-                                    <img src="ser2.jpg" alt="" srcset="" className="rounded-full" style={{ width: `240px`, height: `240px` }} />
+                                    <img src="images/service-card/ser2.jpg" alt="" srcset="" className="rounded-full" style={{ width: `240px`, height: `240px` }} />
                                 </div>
                                 <div className="info">
                                     <p>52 cases</p>
@@ -49,12 +49,12 @@ const Services = () => {
                                 </div>
                             </a>
                         </div>
-                        <div className="columns  bg-white" style={{ width: `290px`, border: `1px solid gray` }}>
+                        <div className="columns  bg-white right" style={{ width: `290px`, border: `1px solid gray` }}>
                             <div className="columns p-2">
                             <a href="#" className="hover:text-orange-500" style={{ height: `300px` }}>
                                 <p className="text-right">3</p>
                                 <div className="img m-16">
-                                    <img src="ser3.jpg" alt="" srcset="" className="rounded-full" style={{ width: `120px`, height: `120px` }} />
+                                    <img src="images/service-card/ser3.jpg" alt="" srcset="" className="rounded-full" style={{ width: `120px`, height: `120px` }} />
                                 </div>
                                 <div className="info">
                                     <p>22 cases</p>

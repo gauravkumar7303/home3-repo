@@ -25,3 +25,51 @@ body {
     text-wrap: balance;
   }
 }
+
+@keyframes slideInFromLeft {
+  from {
+      transform: translateX(-100%);
+      opacity: 0;
+  }
+
+  to {
+      transform: translateX(0);
+      opacity: 1;
+  }
+}
+
+.left {
+  animation: slideInFromLeft 2s ease-out forwards;
+}
+
+@keyframes slideInFromRight {
+  from {
+      transform: translateX(100%);
+      opacity: 0;
+  }
+
+  to {
+      transform: translateX(0);
+      opacity: 1;
+  }
+}
+
+.right {
+  animation: slideInFromLeft 2s ease-out forwards;
+}
+
+@keyframes slideInFromTop {
+  from {
+      transform: translateY(-100%);
+      opacity: 0;
+  }
+
+  to {
+      transform: translateY(0);
+      opacity: 1;
+  }
+}
+
+.top {
+  animation: slideInFromLeft 2s ease-out forwards;
+}

@@ -44,7 +44,8 @@ const About = () => {
                         </div>
                     </div>
                 </div>
-                
+                <img src="/images/about.jpg" alt=""
+                    style={{maxWidth: `100%`, maxHeight: `100%`, filter: `grayscale(1)`}} className="ml-10 mt-4 right" />
             </div>
         </section>
     );
