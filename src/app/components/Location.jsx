@@ -41,32 +41,32 @@ const Location = () => {
                                     <span style={{color: `red`}}>*Marked fields must need to fill</span>
                                     <form action="" method="post">
                                         <div className="row flex flex-wrap">
-                                            <div className="columns mb-4" style={{width: `400px`}}>
+                                            <div className="columns mb-4 px-2" style={{width: `350px`}}>
                                                 <label for="fullname" className="block"><span
                                                         style={{color: `red`}}>*</span>FULL NAME</label>
                                                 <input type="text" id="fullname" placeholder="enter your name here"
-                                                    className="p-4 w-96" style={{border: `1px solid gray`}} />
+                                                    className="p-4" style={{border: `1px solid gray` ,width:`300px`}} />
                                             </div>
-                                            <div className="columns mb-4"style={{width: `400px`}}>
+                                            <div className="columns mb-4 px-2"style={{width: `350px`}}>
                                                 <label for="email" className="block"><span
                                                         style={{color: `red`}}>*</span>EMAIL ADDRESS</label>
                                                 <input type="text" id="email" placeholder="enter your email here"
-                                                    className="p-4 w-96" style={{border: `1px solid gray`}} />
+                                                    className="p-4 " style={{border: `1px solid gray`  ,width:`300px`}} />
                                             </div>
-                                            <div className="columns mb-4" style={{width: `400px`}}>
+                                            <div className="columns mb-4 px-2" style={{width: `350px`}}>
                                                 <label for="phoneno" className="block"><span
                                                       style={{color: `red`}}>*</span>PHONE NUMBER</label>
                                                 <input type="text" id="phoneno"
-                                                    placeholder="enter your phone number here" className="p-4 w-96"
-                                                    style={{border: `1px solid gray`}} />
+                                                    placeholder="enter your phone number here" className="p-4 "
+                                                    style={{border: `1px solid gray`  ,width:`300px`}} />
                                             </div>
-                                            <div className="columns mb-4" style={{width: `400px`}}>
+                                            <div className="columns mb-4 px-2" style={{width: `350px`}}>
                                                 <label for="phoneno" className="block">SUBJECT (OPTIONAL)</label>
                                                 <input type="number" id="phoneno"
-                                                    placeholder="enter your subject here" className="p-4 w-96"
-                                                    style={{border: `1px solid gray`}} />
+                                                    placeholder="enter your subject here" className="p-4 "
+                                                    style={{border: `1px solid gray` ,width:`300px`}} />
                                             </div>
-                                            <div className="columns mb-4">
+                                            <div className="columns mb-4 px-2">
                                                 <label for="message" className="block">Message</label>
                                                 <textarea name="" id="message" cols="45" rows="10"
                                                     placeholder="write your message here"

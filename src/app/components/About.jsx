@@ -17,7 +17,7 @@ const About = () => {
                         <button className="p-4 mt-12 bg-white hover:bg-orange-500 hover:text-white hover:shadow-2xl" style={{border: `1px solid black;`}}>ABOUT US</button>
                     </div>
                     <div className="columns w-96">
-                    <div className="columns w-48 h-48 p-6 ml-48 mt-16" style={{border:`1px solid gray;`}}>
+                    <div className="columns w-48 h-48 p-6 ml-40 mt-16" style={{border:`1px solid gray;`}}>
                             <h1 className="mb-4 text-4xl">54</h1>
                             <p className="p-4 pl-0 pt-8">
                                 AWARDS & <br />
@@ -45,7 +45,7 @@ const About = () => {
                     </div>
                 </div>
                 <img src="/images/about.jpg" alt=""
-                    style={{maxWidth: `100%`, maxHeight: `100%`, filter: `grayscale(1)`}} className="ml-10 mt-4 right" />
+                    style={{maxWidth: `100%`, maxHeight: `100%`, filter: `grayscale(1)`}} className="ml-5 mt-4 right" />
             </div>
         </section>
     );
