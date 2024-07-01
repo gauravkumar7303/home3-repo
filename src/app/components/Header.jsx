@@ -52,78 +52,80 @@ const Header = () => {
                             className="w-full h-full object-cover"
                         />
                         <div className="carousel-content absolute top-0 left-0 w-full h-full flex  bg-black bg-opacity-50 text-white">
-                            <div className="header-info px-16" style={{ paddingTop: "10rem" }}>
+                            <div className="header-info px-16" style={{ paddingTop: `10rem` }}>
                                 <div className="row flex flex-wrap">
-                                    <div className="columns text-center" style={{ width: "400px" }}>
-                                        <h1 className="text-4xl pt-10 pb-4">Project</h1>
+                                    <div className="columns text-center" style={{ width: `400px` }}>
+                                        <h1 className="text-4xl pt-10 pb-2">Project</h1>
                                     </div>
-                                    <div className="columns" style={{ width: "700px" }}>
-                                        <div className="header-top mb-6">
-                                            <div className="row flex flex-wrap justify-between">
-                                                <h1>FEATURES</h1>
-                                                <h1>GOURAV DESIGN & COO.</h1>
-                                            </div>
-                                            <hr />
-                                            <div className="heading pt-8 pb-8">
-                                                <h1 className="text-5xl">
-                                                    AMBER   <br />PROJECT <br />
-                                                    PROGRESS    <br />8/2023
-                                                </h1>
-                                            </div>
-                                            <div className="par pb-10">
-                                                <p>
-                                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. <br />
-                                                    Iusto dolorem saepe eum deleniti.
-                                                </p>
-                                            </div>
-                                            <div className="header-last flex flex-wrap justify-between">
-                                                <div
-                                                    className="box w-20 h-20 text-center p-4"
-                                                    style={{ backgroundColor: "orange" }}
-                                                >
-                                                    <span style={{ fontSize: "50px" }}>&#8599;</span>
+                                    <div className="columns" style={{ width: `700px` }}>
+                                        <div className="row flex flex-wrap">
+                                            <div className="header-top mb-6">
+                                                <div className="row flex flex-wrap">
+                                                    <h1 className='w-96'>FEATURED</h1>
+                                                    <h1 className='w-96'>GOURAV DESIGN AND COO.</h1>
                                                 </div>
-                                                <div className="buttons mt-16">
-                                                    <button
-                                                        id="prev"
-                                                        onClick={prevSlide}
-                                                        className="top-1/2 transform -translate-y-1/2 text-white"
+                                                <div className="heading pt-8 pb-8">
+                                                    <h1 className="text-5xl">
+                                                        AMBER <br />
+                                                        PROJECT <br /> PROGRESS <br />
+                                                        8/2024
+                                                    </h1>
+                                                </div>
+                                                <div className="par pb-10">
+                                                    <p>
+                                                        Lorem ipsum dolor sit amet consectetur <br /> adipisicing elit. <br />
+                                                        Iusto dolorem saepe eum deleniti.
+                                                    </p>
+                                                </div>
+                                                <div className="header-last flex flex-wrap justify-between" style={{ width: `500px` }}>
+                                                    <div className="box3">
+                                                    <div
+                                                        className="box w-20 h-20 text-center p-4 pr-4"
+                                                        style={{ backgroundColor: "orange" }}
                                                     >
-                                                        <svg
-                                                            xmlns="http://www.w3.org/2000/svg"
-                                                            viewBox="0 0 320 512"
-                                                            className="h-9 w-9"
+                                                        <span style={{ fontSize: "50px" }}>&#8599;</span>
+                                                    </div>
+                                                    </div>
+                                                    <div className="buttons mt-16 w-96">
+                                                        <button
+                                                            id="prev"
+                                                            onClick={prevSlide}
+                                                            className="top-1/2 transform -translate-y-1/2 text-white"
                                                         >
-                                                            <path
-                                                                fill="#f7f9fc"
-                                                                d="M9.4 233.4c-12.5 12.5-12.5 32.8 0 45.3l192 192c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L77.3 256 246.6 86.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0l-192 192z"
-                                                            />
-                                                        </svg>
-                                                    </button>
-                                                    <button
-                                                        id="next"
-                                                        onClick={nextSlide}
-                                                        className="top-1/2 transform -translate-y-1/2 text-white"
-                                                    >
-                                                        <svg
-                                                            xmlns="http://www.w3.org/2000/svg"
-                                                            viewBox="0 0 320 512"
-                                                            className="h-9 w-9"
+                                                            <svg
+                                                                xmlns="http://www.w3.org/2000/svg"
+                                                                viewBox="0 0 320 512"
+                                                                className="h-9 w-9"
+                                                            >
+                                                                <path
+                                                                    fill="#f7f9fc"
+                                                                    d="M9.4 233.4c-12.5 12.5-12.5 32.8 0 45.3l192 192c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L77.3 256 246.6 86.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0l-192 192z"
+                                                                />
+                                                            </svg>
+                                                        </button>
+                                                        <button
+                                                            id="next"
+                                                            onClick={nextSlide}
+                                                            className="top-1/2 transform -translate-y-1/2 text-white"
                                                         >
-                                                            <path
-                                                                fill="#f4f5f6"
-                                                                d="M310.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-192 192c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L242.7 256 73.4 86.6c-12.5-12.5 12.5-32.8 0-45.3s32.8-12.5 45.3 0l192 192z"
-                                                            />
-                                                        </svg>
-                                                    </button>
+                                                            <svg
+                                                                xmlns="http://www.w3.org/2000/svg"
+                                                                viewBox="0 0 320 512"
+                                                                className="h-9 w-9"
+                                                            >
+                                                                <path
+                                                                    fill="#f4f5f6"
+                                                                    d="M310.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-192 192c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L242.7 256 73.4 86.6c-12.5-12.5 12.5-32.8 0-45.3s32.8-12.5 45.3 0l192 192z"
+                                                                />
+                                                            </svg>
+                                                        </button>
+                                                    </div>
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-
-
                         </div>
                     </div>
                     <div className="carousel-item relative min-w-full transition-transform duration-500" style={{ maxWidth: `100%`, height: `800px` }}>
@@ -133,7 +135,7 @@ const Header = () => {
                             className="w-full h-full object-cover"
                         />
                         <div className="carousel-content absolute top-0 left-0 w-full h-full  bg-black bg-opacity-50 text-white">
-                        <div className="header-info px-16" style={{ paddingTop: "10rem" }}>
+                            <div className="header-info px-16" style={{ paddingTop: "10rem" }}>
                                 <div className="row flex flex-wrap">
                                     <div className="columns text-center" style={{ width: "400px" }}>
                                         <h1 className="text-4xl pt-10 pb-4">News</h1>
@@ -144,7 +146,6 @@ const Header = () => {
                                                 <h1>FEATURES</h1>
                                                 <h1>GOURAV DESIGN & COO.</h1>
                                             </div>
-                                            <hr />
                                             <div className="heading pt-8 pb-8">
                                                 <h1 className="text-5xl">
                                                     OHIO <br />
@@ -154,7 +155,7 @@ const Header = () => {
                                             </div>
                                             <div className="par pb-10">
                                                 <p>
-                                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. <br />
+                                                    Lorem ipsum dolor sit amet consectetur <br /> adipisicing elit. <br />
                                                     Iusto dolorem saepe eum deleniti.
                                                 </p>
                                             </div>
@@ -213,7 +214,7 @@ const Header = () => {
                             className="w-full h-full object-cover"
                         />
                         <div className="carousel-content absolute top-0 left-0 w-full h-full  bg-black bg-opacity-50 text-white">
-                        <div className="header-info px-16" style={{ paddingTop: "10rem" }}>
+                            <div className="header-info px-16" style={{ paddingTop: "10rem" }}>
                                 <div className="row flex flex-wrap">
                                     <div className="columns text-center" style={{ width: "400px" }}>
                                         <h1 className="text-4xl pt-10 pb-4">BUILD</h1>
@@ -224,7 +225,6 @@ const Header = () => {
                                                 <h1>PHILOSOPHY</h1>
                                                 <h1>GOURAV DESIGN & COO.</h1>
                                             </div>
-                                            <hr />
                                             <div className="heading pt-8 pb-8">
                                                 <h1 className="text-5xl">
                                                     TIMELESS <br />
