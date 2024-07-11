@@ -1,56 +1,54 @@
 import React from "react";
 const News = () => {
-    return(
-        <section className="news py-24">
-        <div className="container w-10/12 m-auto">
-            <div className="top-blog">
-                <div className="row flex flex-wrap justify-between">
-                    <h1 className="text-3xl">NEWS & ARTICLE</h1>
-                    <button className="bg-white p-3 hover:bg-orange-500 hover:text-white hover:shadow-2xl" style={{border: `1px solid gray`}}>ALL ARTICLE</button>
+    return (
+        <section class="news">
+            <div class="container">
+                <div class="top-blog">
+                    <div class="row" style={{justifyContent: `space-between`}}>
+                        <h1 class="news-title">NEWS & ARTICLE</h1>
+                        <button class="all-articles-button">ALL ARTICLE</button>
+                    </div>
+                </div>
+                <div class="blogs">
+                    <a href="#">
+                        <div class="columns1">
+                            <div class="row blog-item">
+                                <img src="images/blogs/blog1.jpg" alt="Blog 1" class="blog-image" />
+                                    <div class="info">
+                                        <h1 class="blog-title">Amber apartment project <br /> Update progress 8x2023</h1>
+                                        <p class="blog-category">NEWS, TECHNICAL</p>
+                                        <span class="blog-date">5 Days ago</span>
+                                    </div>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="#">
+                        <div class="columns1">
+                            <div class="row blog-item">
+                                <img src="images/blogs/blog2.jpg" alt="Blog 2" class="blog-image" />
+                                    <div class="info">
+                                        <h1 class="blog-title">Construction law 2023</h1>
+                                        <p class="blog-category">EXPERIENCE</p>
+                                        <span class="blog-date">12 Days ago</span>
+                                    </div>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="#">
+                        <div class="columns1">
+                            <div class="row blog-item">
+                                <img src="images/blogs/blog3.jpg" alt="Blog 3" class="blog-image" />
+                                    <div class="info">
+                                        <h1 class="blog-title">Roxtow building completed <br /> rough construction</h1>
+                                        <p class="blog-category">CONSTRUCT</p>
+                                        <span class="blog-date">1 month ago</span>
+                                    </div>
+                            </div>
+                        </div>
+                    </a>
                 </div>
             </div>
-            <div className="blogs pt-20">
-                <a href="#" className="hover:text-orange-500">
-                    <div className="columns mb-4">
-                        <div className="row flex flex-wrap">
-                            <img src="images/blogs/blog1.jpg" alt="" />
-                            <div className="info pl-2">
-                                <h1 className="text-5xl mb-10">Amber apartment project <br />
-                                    Update progress 8x2023</h1>
-                                <p className="mb-8">NEWS,TECHNICAL</p>
-                                <span>5 Days ago</span>
-                            </div>
-                        </div>
-                    </div>
-                </a>
-                <a href="#" className="hover:text-orange-500">
-                    <div className="columns mb-4">
-                        <div className="row flex flex-wrap">
-                            <img src="images/blogs/blog2.jpg" alt="" />
-                            <div className="info pl-2">
-                                <h1 className="text-5xl mb-10">construction law 2023</h1>
-                                <p className="mb-8">EXPERIENCE</p>
-                                <span>12 Days ago</span>
-                            </div>
-                        </div>
-                    </div>
-                </a>
-                <a href="#" className="hover:text-orange-500">
-                    <div className="columns mb-4">
-                        <div className="row flex flex-wrap">
-                            <img src="images/blogs/blog3.jpg" alt="" />
-                            <div className="info pl-2">
-                                <h1 className="text-5xl mb-10">Roxtow building completed<br />
-                                    rough construction</h1>
-                                <p className="mb-8">CONSTRUCT</p>
-                                <span>1 month ago</span>
-                            </div>
-                        </div>
-                    </div>
-                </a>
-            </div>
-        </div>
-    </section>
+        </section>
     )
 }
 export default News;
