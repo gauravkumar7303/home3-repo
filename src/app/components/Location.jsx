@@ -71,7 +71,7 @@ const Location = () => {
                                     </div>
                                     <div class="columns form-group">
                                         <input type="file" id="file" class="form-file-input" />
-                                        <label for="file" class="form-file-label">ADD AN ATTACHMENT</label>
+                                        <label for="file" id="attach" class="form-file-label">ADD AN ATTACHMENT</label>
                                     </div>
                                     <div class="columns form-group">
                                         <input type="checkbox" id="checkbox" class="form-checkbox" />

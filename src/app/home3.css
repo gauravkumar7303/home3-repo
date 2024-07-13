@@ -970,6 +970,13 @@ h1 {
     .form-textarea{
         width: 300px;
     }
+    .attach{
+       display: block;
+    }
+
+    .form-checkbox-label{
+        display: block;
+    }
 }
 
 @media only screen and (min-width: 768px) and (max-width: 1024px)  {
