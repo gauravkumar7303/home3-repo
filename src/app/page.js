@@ -10,11 +10,10 @@ import Footer from './components/Footer';
 
 export default function Home() {
   return (
-    <div>
+    <div div style={{maxWidth:`100%`}}>
       <Head>
         <title>Next.js Carousel</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
-        <link rel="icon" href="logo.ico" type="image/x-icon" sizes="48x48"></link>
+        <link rel="icon" href="/logo2.ico" type="image/x-icon" sizes="48x48"></link>
       </Head>
         <Header />
         <main>

@@ -159,42 +159,23 @@ h1 {
     display: flex;
 }
 
-.btn-left {
-    position: absolute;
-    left: 0;
-    top: 50%;
-    transform: translateY(-50%);
-    background-color: #2d3748;
-    /* bg-gray-800 */
-    color: #ffffff;
-    /* text-white */
-    padding-left: 1rem;
-    /* px-4 */
-    padding-right: 1rem;
-    /* px-4 */
-    padding-top: 0.5rem;
-    /* py-2 */
-    padding-bottom: 0.5rem;
-    /* py-2 */
+#prev{
+   background: none;
+   border: 1px solid gray;
 }
-
-.btn-right {
-    position: absolute;
-    right: 0;
-    top: 50%;
-    transform: translateY(-50%);
-    background-color: #2d3748;
-    /* bg-gray-800 */
-    color: #ffffff;
-    /* text-white */
-    padding-left: 1rem;
-    /* px-4 */
-    padding-right: 1rem;
-    /* px-4 */
-    padding-top: 0.5rem;
-    /* py-2 */
-    padding-bottom: 0.5rem;
-    /* py-2 */
+#next{
+    background: none;
+    border: 1px solid gray;
+}
+.left-btn{
+    width: 40px;
+    height: 40px;
+    color: white;
+}
+.right-btn{
+    width: 40px;
+    height: 40px;
+    color: white;
 }
 
 .nav {
@@ -924,25 +905,23 @@ h1 {
 .links {
     color: white;
 }
-
-@media screen and (max-height: 450px) {
-    .sidenav {
-        padding-top: 15px;
-    }
-
-    .slidenav {
-        max-width: 100%;
-    }
-
-    .sidenav a {
-        font-size: 18px;
-    }
-
-}
-@media only screen and (max-width: 900px) {
+ 
+@media only screen and (max-width: 480px) {
     .columns {
         display: block;
         width: 400px;
+    }
+    .nav-list{
+        display: block;
+    }
+    .work-item{
+        padding: 5px;
+    }
+    .contact-info{
+        width: 300px;
+    }
+    .form-input{
+        width: 270px;
     }
 
     .header {
@@ -959,7 +938,7 @@ h1 {
     }
 
     #mySidenav {
-        max-width: 100% !important;
+        max-width: 70% !important;
     }
 
     .nav {
@@ -987,5 +966,74 @@ h1 {
 
     .about_pat {
         display: none;
+    }
+    .form-textarea{
+        width: 300px;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px)  {
+    .columns {
+        display: block;
+        width: 400px;
+    }
+    .nav-list{
+        display: block;
+    }
+    .work-item{
+        padding: 5px;
+    }
+    .contact-info{
+        width: 300px;
+    }
+    .form-input{
+        width: 270px;
+    }
+
+    .header {
+        height: 1000px;
+    }
+
+    .header-info {
+        max-width: 100%;
+        padding-top: 80px;
+    }
+
+    .carousel-item {
+        height: 1000px;
+    }
+
+    #mySidenav {
+        max-width: 50% !important;
+    }
+
+    .nav {
+        padding-top: 20px;
+        padding-bottom: 20px;
+        padding-left: 2px;
+        padding-right: 0;
+    }
+
+    .col {
+        display: block;
+    }
+
+    .column {
+        width: 400px;
+    }
+
+    .column1 {
+        width: 400px;
+    }
+
+    .header-top {
+        justify-content: flex-start;
+    }
+
+    .about_pat {
+        display: none;
+    }
+    .form-textarea{
+        width: 300px;
     }
 }

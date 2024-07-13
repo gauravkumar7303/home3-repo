@@ -64,7 +64,7 @@ const Header = () => {
                                     </div>
                                     <div className="column1">
                                         <div className="header-top mb-6">
-                                            <div className="row" style={{ justifyContent: `space-between` }}>
+                                            <div className="row" style={{ justifyContent: `space-between`, alignItems:`center`}}>
                                                 <h3 className="col">FEATURES</h3>
                                                 <h3 className="col">GOURAV DESIGN & COO.</h3>
                                             </div>
@@ -76,20 +76,20 @@ const Header = () => {
                                                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <br />Iusto dolorem saepe eum deleniti.</p>
                                             </div>
                                             <div className="header-last">
+                                                <div className="row" style={{justifyContent: `space-between`, alignItems:`center`}}>
                                                 <div className="box" style={{ backgroundColor: `orange` }}>
                                                     <span style={{ fontSize: `50px` }}>&#8599;</span>
                                                 </div>
                                                 <div className="buttons mt-16">
                                                     <button id="prev" onClick={prevSlide}>
-                                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512" style={{ height: `20px`, width: `20px` }}>
-                                                            <path d="M9.4 233.4c-12.5 12.5-12.5 32.8 0 45.3l192 192c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L77.3 256 246.6 86.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0l-192 192z" />
-                                                        </svg>
+                                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512" className='left-btn'>
+                                                            <path fill="#eff1f6" d="M9.4 233.4c-12.5 12.5-12.5 32.8 0 45.3l192 192c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L77.3 256 246.6 86.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0l-192 192z" /></svg>
                                                     </button>
                                                     <button id="next" onClick={nextSlide}>
-                                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512" style={{ height: `20px`, width: `20px` }}>
-                                                            <path d="M310.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-192 192c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L242.7 256 73.4 86.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l192 192z" />
-                                                        </svg>
+                                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512" className='right-btn'>
+                                                            <path fill="#f0f2f4" d="M310.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-192 192c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L242.7 256 73.4 86.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l192 192z" /></svg>
                                                     </button>
+                                                </div>
                                                 </div>
                                             </div>
                                         </div>
@@ -108,7 +108,7 @@ const Header = () => {
                                     </div>
                                     <div className="column1">
                                         <div className="header-top mb-6">
-                                            <div className="row" style={{ justifyContent: `space-between` }}>
+                                            <div className="row" style={{ justifyContent: `space-between`, alignItems:`center`}}>
                                                 <h3 className="col">FEATURES</h3>
                                                 <h3 className="col">GOURAV DESIGN & COO.</h3>
                                             </div>
@@ -120,20 +120,20 @@ const Header = () => {
                                                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <br />Iusto dolorem saepe eum deleniti.</p>
                                             </div>
                                             <div className="header-last">
+                                                <div className="row" style={{justifyContent: `space-between` , alignItems:`center`}}>
                                                 <div className="box w-20 h-20 text-center p-4" style={{ backgroundColor: `orange` }}>
                                                     <span style={{ fontSize: `50px` }}>&#8599;</span>
                                                 </div>
                                                 <div className="buttons mt-16">
                                                     <button id="prev" onClick={prevSlide}>
-                                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512" style={{ height: `20px`, width: `20px` }}>
-                                                            <path d="M9.4 233.4c-12.5 12.5-12.5 32.8 0 45.3l192 192c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L77.3 256 246.6 86.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0l-192 192z" />
-                                                        </svg>
+                                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512" className='left-btn'>
+                                                            <path fill="#eff1f6" d="M9.4 233.4c-12.5 12.5-12.5 32.8 0 45.3l192 192c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L77.3 256 246.6 86.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0l-192 192z" /></svg>
                                                     </button>
                                                     <button id="next" onClick={nextSlide}>
-                                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512" style={{ height: `20px`, width: `20px` }}>
-                                                            <path d="M310.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-192 192c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L242.7 256 73.4 86.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l192 192z" />
-                                                        </svg>
+                                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512" className='right-btn'>
+                                                            <path fill="#f0f2f4" d="M310.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-192 192c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L242.7 256 73.4 86.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l192 192z" /></svg>
                                                     </button>
+                                                </div>
                                                 </div>
                                             </div>
                                         </div>
@@ -165,20 +165,20 @@ const Header = () => {
                                                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <br />Iusto dolorem saepe eum deleniti.</p>
                                                 </div>
                                                 <div className="header-last">
+                                                    <div className="row" style={{ justifyContent: `space-between`, alignItems:`center`}}>
                                                     <div className="box w-20 h-20 text-center p-4" style={{ backgroundColor: `orange` }}>
                                                         <span style={{ fontSize: `50px` }}>&#8599;</span>
                                                     </div>
                                                     <div className="buttons mt-16">
                                                         <button id="prev" onClick={prevSlide}>
-                                                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512" style={{ height: `20px`, width: `20px` }}>
-                                                                <path d="M9.4 233.4c-12.5 12.5-12.5 32.8 0 45.3l192 192c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L77.3 256 246.6 86.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0l-192 192z" />
-                                                            </svg>
+                                                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512" className='left-btn'>
+                                                                <path fill="#eff1f6" d="M9.4 233.4c-12.5 12.5-12.5 32.8 0 45.3l192 192c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L77.3 256 246.6 86.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0l-192 192z" /></svg>
                                                         </button>
                                                         <button id="next" onClick={nextSlide}>
-                                                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512" style={{ height: `20px`, width: `20px` }}>
-                                                                <path d="M310.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-192 192c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L242.7 256 73.4 86.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l192 192z" />
-                                                            </svg>
+                                                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512" className='right-btn'>
+                                                                <path fill="#f0f2f4" d="M310.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-192 192c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L242.7 256 73.4 86.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l192 192z" /></svg>
                                                         </button>
+                                                    </div>
                                                     </div>
                                                 </div>
                                             </div>
@@ -218,7 +218,7 @@ const Header = () => {
                         </div>
                     </div>
                 </div>
-                <div id="mySidenav" className="sidenav" style={{backgroundImage: `url(images/bg_pattern.png)`}}>
+                <div id="mySidenav" className="sidenav" style={{ backgroundImage: `url(images/bg_pattern.png)` }}>
                     <a href="javascript:void(0)" className="closebtn" onClick={() => closeNav()}>&times;</a>
                     <a href="#"><h2>About</h2></a>
                     <a href="#"><h2>Services</h2></a>
