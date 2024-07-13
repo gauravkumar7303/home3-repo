@@ -69,11 +69,11 @@ const Location = () => {
                                                 class="form-textarea"></textarea>
                                         </div>
                                     </div>
-                                    <div class="columns form-group">
+                                    <div class="column2 form-group">
                                         <input type="file" id="file" class="form-file-input" />
                                         <label for="file" id="attach" class="form-file-label">ADD AN ATTACHMENT</label>
                                     </div>
-                                    <div class="columns form-group">
+                                    <div class="column2 form-group">
                                         <input type="checkbox" id="checkbox" class="form-checkbox" />
                                         <label for="checkbox" class="form-checkbox-label">By submitting, I agree to
                                             the <a href="#" class="terms-link">Terms & Conditions</a></label>

@@ -970,12 +970,8 @@ h1 {
     .form-textarea{
         width: 300px;
     }
-    .attach{
-       display: block;
-    }
-
-    .form-checkbox-label{
-        display: block;
+    .column2{
+        width: 300px;
     }
 }
 
@@ -1043,7 +1039,7 @@ h1 {
     .form-textarea{
         width: 300px;
     }
-    .attach{
+    #attach{
         display: block;
      }
 }
