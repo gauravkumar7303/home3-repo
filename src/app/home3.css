@@ -971,7 +971,7 @@ h1 {
         width: 300px;
     }
     .column2{
-        width: 300px;
+        width: 280px;
     }
 }
 
@@ -1042,4 +1042,4 @@ h1 {
     #attach{
         display: block;
      }
-}
+    }
